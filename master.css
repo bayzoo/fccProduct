@@ -1,0 +1,118 @@
+/*master css file*/
+/*zero out*/
+*, html {
+  margin: 0;
+  padding: 0;
+}
+/*text*/
+body {
+  font-family: Arial, Verdana, sans-serif;
+}
+p {
+  font-size: 1em;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1.6em;
+}
+/*main layout*/
+#header-container {
+
+}
+#landing-container {
+
+}
+#footer-container {
+  
+}
+/*tribute info section*/
+
+/*footer*/
+
+/*title adjustment only media query*/
+@media only screen and (max-width: 525px) {
+  #title-two {
+    left: 8%;
+  }
+  #img-div .header-quote {
+    font-size: 1em;
+  }
+}
+/*phone size media query*/
+@media only screen and (max-width: 414px) {
+  h2 {
+    font-size: 1.7em;
+  }
+  p {
+    font-size: 0.9em;
+  }
+  .story-box ul {
+    font-size: 0.9em;
+  }
+  #title {
+    top: 2px;
+    font-size: 2.1em;
+  }
+  #title-two {
+    font-size: 2.1em;
+    top: 37px;
+    left: 7%;
+  }
+  #img-div .header-quote {
+    font-size: 0.8em;
+  }
+  .tribute-story-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .year-box {
+    width: 85%;
+    border-right: 0;
+    border-bottom: 4px dashed #2E8BC0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  .story-box {
+    border-radius: 35px;
+    width: 85%;
+    margin-left: 0;
+    margin-top: 20px;
+    background-color: #2E8BC0;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  .arrow {
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #2E8BC0;
+    border-right: 0;
+  }
+  .arrow-container {
+    margin: 0 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+    h2 {
+      font-size: 1.7em;
+    }
+    #title {
+      top: 0px;
+      font-size: 1.8em;
+    }
+    #title-two {
+      font-size: 1.8em;
+      top: 32px;
+      left: 7%;
+    }
+    #img-div .header-quote {
+      font-size: 0.7em;
+      bottom: 6px;
+    }
+  }
