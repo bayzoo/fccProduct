@@ -16,17 +16,50 @@
       </header>
       <nav>
         <div id="nav-bar">
-          <div class="nav-link">
-          </div>
-          <div class="nav-link">
-          </div>
-          <div class="nav-link">
-          </div>
+          <ul>
+            <li><a class="nav-link" href="#features-list">Features</a></li>
+            <li><a class="nav-link" href="#product-gallery">Products</a></li>
+            <li><a class="nav-link" href="#video">Harvest</a></li>
+            <li><a class="nav-link" href="#contact-us">Contact</a></li>
+          </ul>
         </div>
       </nav>
       <main>
         <div id="landing-container">
+          <div class="headings-container">
+            <h3>Product Features</h3>
+          </div>
           <div id="features-list">
+            <div class="sub">
+              <div class="image">
+                <img src="quality-icon.png" alt="Quality assurance icon">
+              </div>
+              <div class="text">
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque</p>
+              </div>
+            </div>
+            <div class="sub one">
+              <div class="image">
+                <img src="calendar-icon.png" alt="Quality assurance icon">
+              </div>
+              <div class="text">
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque</p>
+              </div>
+            </div>
+            <div class="sub">
+              <div class="image">
+                <img src="history-icon.png" alt="Quality assurance icon">
+              </div>
+              <div class="text">
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque</p>
+              </div>
+            </div>
+          </div>
+          <div class="headings-container">
+            <h3>Product Gallery</h3>
           </div>
           <div id="product-gallery">
             <div class="sub one">
@@ -58,10 +91,32 @@
               </div>
             </div>
           </div>
+          <div class="headings-container">
+            <h3>Potato Harvesting</h3>
+          </div>
           <div id="video">
+            <div class="video-container">
+              <iframe width="420" height="315" src="https://www.youtube.com/embed/iNSk-4a0e_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
-          <div id="form">
+          <div class="headings-container">
+            <h3>Contact Us</h3>
           </div>
+          <form id="contact-us" action="https://www.freecodecamp.com/email-submit">
+            <div class="free-text">
+              <label class="label-text" id="name-label" for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Name">
+            </div>
+            <div class="free-text">
+              <label class="label-text" id="email-label" for="email">Email address</label>
+              <input type="email" id="email" name="email-add" placeholder="Email address">
+            </div>
+            <div id="text-area">
+              <label class="label-text" for="feedback">Please provide feedback on this form</label>
+              <textarea rows="4" cols="25" id="feedback" placeholder="Feedback"></textarea>
+            </div>
+            <button type="submit">Submit!</button>
+          </form>
         </div>
       </main>
       <footer>
